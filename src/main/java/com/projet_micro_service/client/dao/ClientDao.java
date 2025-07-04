@@ -28,4 +28,8 @@ public class ClientDao {
     public void deleteById(int id) {
         clientRepository.deleteById(id);
     }
+
+    public boolean existsById(int id) {
+        return clientRepository.existsById(id);
+    }
 }
