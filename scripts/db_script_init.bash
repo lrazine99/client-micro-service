@@ -2,7 +2,7 @@
 
 CONTAINER_NAME="db_mv"
 DB_USER="postgres"
-DB_NAME="products_db"
+DB_NAME="clients_db"
 
 # DB_NAMES=("products_db" "clients_db" "orders_db")
 

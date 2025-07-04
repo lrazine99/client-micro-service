@@ -7,6 +7,10 @@ dbstart:
 	@sleep 2 
 	@bash ./scripts/db_script_init.bash
 
+create_db:
+	@echo "Creating the database..."
+	@bash ./scripts/db_script_init.bash
+	
 start_service: 
 	@echo "Starting the order service..."
 	@mvn clean install  && mvn spring-boot:run
